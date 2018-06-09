@@ -65,9 +65,9 @@ class Forms extends React.Component{
                         onChange={this.handleChange.bind(this,key)}
                         onFocus={this.handleFocus.bind(this,key)}
                         margin="normal"
-                        key={a}
+
                     />
-                    <Button key={key} size="small" onClick={this.remove.bind(this,key)}>X</Button>
+                    <Button size="small" onClick={this.remove.bind(this,key)}>X</Button>
                     </div>
                 )
             });
